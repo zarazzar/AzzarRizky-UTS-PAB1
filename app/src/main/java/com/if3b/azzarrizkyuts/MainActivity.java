@@ -58,9 +58,13 @@ public class MainActivity extends AppCompatActivity {
                 {
                     etNomorPendaftaran.setError("Nomor Pendaftaran Harus Di Isi!");
                 }
+                else if (Jalurpendaftar.trim().equals("Jalur Pendaftaran"))
+                {
+                    Toast.makeText(MainActivity.this, "Mohon Pilih Jalur Pendaftaran", Toast.LENGTH_SHORT).show();
+                }
                 else if(cbKonfirmasiDaftar.isChecked()==false)
                 {
-                    cbKonfirmasiDaftar.setError("Anda Belum MengKonfirmasi!");
+                    Toast.makeText(MainActivity.this, "Anda Belum Mengkonfirmasi!", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Intent pindah = new Intent(MainActivity.this, second_activity.class);

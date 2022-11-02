@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:text="FORMULIR PENDAFTARAN"
         android:layout_centerHorizontal="true"
-        android:textColor="@color/cardview_dark_background"
+        android:textSize="20dp"
+        android:textColorHint="@android:color/holo_blue_bright"
+        android:textColor="@color/purple_700"
         />
     <EditText
         android:id="@+id/Et_NamaLengkap"
@@ -47,13 +49,14 @@
         android:layout_marginTop="20dp"
         android:layout_below="@+id/sp_jalurPendaftaran"
         />
+
     <Button
         android:id="@+id/btn_daftar"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/cb_KonfirmasiDafar"
+        android:layout_marginTop="20dp"
         android:text="Daftar"
-
+        android:backgroundTint="@color/purple_200"
         />
 </RelativeLayout>
