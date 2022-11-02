@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     pindah.putExtra("kirimNomor",Nomorpendaftar);
                     pindah.putExtra("kirimJalur",Jalurpendaftar);
 
-                    Toast.makeText(MainActivity.this, "Berhasil Daftar", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, Nama + " Berhasil Daftar", Toast.LENGTH_SHORT).show();
                     startActivity(pindah);
 
                 }
