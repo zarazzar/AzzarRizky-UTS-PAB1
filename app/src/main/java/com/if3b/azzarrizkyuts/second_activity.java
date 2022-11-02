@@ -19,6 +19,12 @@ public class second_activity extends AppCompatActivity {
         tvJalurPendaftar = findViewById(R.id.TV_jalurPendaftaran);
 
         Intent terima = getIntent();
-        String
+        String ynama = terima.getStringExtra("kirimNama");
+        String ypendaftar = terima.getStringExtra("kirimNomor");
+        String yjalur = terima.getStringExtra("kirimJalur");
+
+        tvNama.setText(ynama);
+        tvNomor.setText(ypendaftar);
+        tvJalurPendaftar.setText(yjalur);
     }
 }
