@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AzzarRizkyUTS</string>
+    <string-array name="jalurpendaftaran">
+        <item>Jalur Pendaftaran</item>
+        <item>Tes Tertulis</item>
+        <item>Jalur Tanpa Tes</item>
+        <item>Ujian Saringan Masuk</item>
+    </string-array>
 </resources>

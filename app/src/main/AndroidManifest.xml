@@ -14,6 +14,10 @@
         android:theme="@style/Theme.AzzarRizkyUTS"
         tools:targetApi="31">
         <activity
+            android:name=".second_activity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
